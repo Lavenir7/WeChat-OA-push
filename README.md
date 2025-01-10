@@ -7,6 +7,13 @@ Use python script to push some informations (maybe set to a schedule) by WeChat 
 pip install requests html5lib bs4 schedule feedparser
 ```
 
+## add secrets
+```sh
+vim template_secrets.json
+# add your secrets
+mv template_secrets.json secrets.json
+```
+
 ## run
 ```sh
 python main.py # push immediately
